@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="playMusic()">
+  
+  <h1>🐾 Cozy Cat Café 🐾</h1>
+
+  <div class="Currency"></div>
+  <section class="menu-category">
+    <div class="category-title">☕ Cat-puccinos</div>
+    <div class="menu-items">
+      <a href = "./Meowcchiato/Meowcchiato.html" class="card">
+        <div class="emoji">🐱☕</div>
+        <div class="item-name">Meowcchiato</div>
+        <div class="item-desc">Espresso with a paw-sitive perspective!</div>
+        <div class="coins">10🪙</div>
+      </a>
+      <a href = "./Purr_Tea/Purr_Tea.html" class="card">
+        <div class="emoji">😸🍵</div>
+        <div class="item-name">Purr Tea</div>
+        <div class="item-desc">Calming herbal blend for a catnap vibe!</div>
+        <div class="coins">5🪙</div>
+
+      </a>
+    </div>
+  </section>
+
+  <section class="menu-category">
+    <div class="category-title">🧁 Paw-stries</div>
+    <div class="menu-items">
+      <a href="./Whisker_Muffin/Whisker_Muffin.html "class="card">
+        <div class="emoji">🧁🐾</div>
+        <div class="item-name">Whisker Muffin</div>
+        <div class="item-desc">Blueberry magic with extra mohu-mohu~</div>
+        <div class="coins">15🪙</div>
+      </a>
+      <a href = "./Kitty_Donut/Kitty_Donut.html"class="card">
+        <div class="emoji">🍩😻</div>
+        <div class="item-name">Kitty Donut</div>
+        <div class="item-desc">Sprinkles and snuggles in every bite!</div>
+        <div class="coins">15🪙</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="menu-category">
+    <div class="category-title">🍱 Kitty Combos</div>
+    <div class="menu-items">
+      <a href="./Tuna_Bento/Tuna_Bento.html" class="card">
+        <div class="emoji">🍙🐈</div>
+        <div class="item-name">Tuna Bento</div>
+        <div class="item-desc">Packed lunch for your significant other!</div>
+        <div class="coins">40🪙</div>
+      </a>
+      <a href= "./Pawsta_Bowl/Pawsta_bowl.html"class="card">
+        <div class="emoji">🍝😽</div>
+        <div class="item-name">Pawsta Bowl</div>
+        <div class="item-desc">Noodles approved by the Cat Empress!</div>
+        <div class="coins">30🪙</div>
+      </a>   
+      </div>
+  </section>
+  
+  <div style="text-align: center;">
+    <button class="coin-button" onclick="addCoin()">
+      🪙: <span id="coinCount">0</span>
+      <h4>Click me</h4>
+    </button>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
+
