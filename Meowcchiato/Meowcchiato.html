@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>🐾Meowcchiato🐾</h1>
+    <div style="display: flex; justify-content: center;">
+      <img src="../Images/3d-cat-in-cappuccino.jpg" alt="Meowcchiato" style="width: 200px; height: 200px; object-fit: cover;" >
+    </div>
+    <div class="button-group">
+        <button class="buy-btn" onclick="buyItem(10)">Buy 🛒</button>
+        <button class="back-btn" onclick="goBack()">Go Back ↩️</button>
+    </div>
+    <div id="countdown"></div>
+    <div style="text-align: center; margin-top: 20px;">
+      <button class="coin-button" onclick="addCoin()">
+        🪙: <span id="coinCount">0</span><br>
+        <span style="font-size: 14px; font-weight: bold;">Click me</span>
+      </button>
+    </div>
+    
+
+<script src="./script.js"></script>
+</body>
+</html>

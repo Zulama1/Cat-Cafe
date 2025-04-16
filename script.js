@@ -1,3 +1,4 @@
+
 window.onload = function() {
   let coins = localStorage.getItem('coins') || 0;
   document.getElementById('coinCount').textContent = coins;
